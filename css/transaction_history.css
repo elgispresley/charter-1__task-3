@@ -1,0 +1,126 @@
+.transaction_history {
+	width: 596px;
+	height: 322px;
+	background: #ffffff;
+	box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 19.0044px;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	padding: 18.49px 24.64px;
+}
+.transaction_history h2 {
+	font-family: Suprema;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20.1118px;
+	line-height: 25px;
+	color: #404040;
+}
+.transaction_history_content {
+	margin-top: 18px;
+}
+.name_row {
+	display: flex;
+}
+.name_h3 {
+	width: 216px;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #aeaeae;
+}
+.name_h4 {
+	width: 123px;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #aeaeae;
+}
+.name_h5 {
+	width: 150px;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #aeaeae;
+}
+.name_h6 {
+	width: 53px;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #aeaeae;
+}
+.row {
+	display: flex;
+	margin-top: 14px;
+	border-bottom: 0.5px solid #ECECEC;
+	padding-bottom: 8px;
+}
+.row_h3 {
+	width: 216px;
+	display: flex;
+	align-items: center;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #404040;
+}
+.row_h3 h3 {
+	margin-left: 6px;
+}
+.row_img_box {
+	width: 20.4px;
+	height: 20.4px;
+	background: #efefef;
+	border-radius: 6.00032px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row_img_box img {
+	width: 10px;
+}
+.row_h4 {
+	display: flex;
+	align-items: center;
+	width: 123px;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #c7c7c7;
+}
+
+.row_h5 {
+	display: flex;
+	align-items: center;
+	width: 150px;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #c7c7c7;
+}
+
+.row_h6 {
+	width: 53px;
+	text-align: right;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #404040;
+}

@@ -1,0 +1,118 @@
+.statistics {
+	grid-column-start: 2;
+	grid-row: 2;
+	position: absolute;
+	margin-left: 630px;
+	margin-top: 270px;
+}
+.statistics h2{
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20.1118px;
+	line-height: 25px;
+	color: #404040;	
+}
+.statistics__statistic {
+	margin-top: 20px;
+	display: flex;
+}
+.img_container_1 {
+	width: 42px;
+	height: 43px;
+	background: #FFEADA;
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img_container_2 {
+	width: 42px;
+	height: 43px;
+	background: #DDF9E4;
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img_container_2_img_1 {
+	position: absolute;
+	margin-right: 5px;
+	margin-bottom: 4px;
+}
+.img_container_2_img_3 {
+	position: absolute;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+.img_container_2_img_2 {
+   position: absolute;
+	margin-left: 18px;
+}
+.img_container_2_img_4 {
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 13px;
+}
+.img_container_3 {
+	width: 42px;
+	height: 43px;
+	background: #E4F0FF;
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.statistics__statistic h3 {	
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 23.9789px;
+line-height: 29px;
+color: #696969;
+margin-left: 15px;
+}
+.statistic_container p {
+	font-family: Kanit;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #AEAEAE;
+margin-top: 8px;
+}
+
+.statistic_container {
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.statistic_button_1 {
+	width: 195px;
+	height: 9px;
+	background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
+	border-radius: 10.7766px;
+	position: absolute;
+}
+.statistic_button_2 {
+	width: 62px;
+	height: 9px;
+	background: linear-gradient(90deg, #209D43 0%, #2BC255 100%);
+	border-radius: 10.7766px;
+	position: absolute;
+}
+.statistic_button_3 {
+	width: 281px;
+	height: 9px;
+	background: #70A6E8;
+	border-radius: 10.7766px;
+	position: absolute;
+}
+.statistic__button_container {
+	height: 9px;
+	width: 320px;
+	background: #f1f1f1;
+	border-radius: 13.617px;
+}

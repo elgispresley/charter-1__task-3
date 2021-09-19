@@ -1,0 +1,120 @@
+.new_transaction {
+display: flex;
+grid-column-start: 2;
+position: absolute;
+margin-left: 630px;
+	margin-top: 534px;
+}
+.new_transaction img {
+	cursor: pointer;
+	transition: 0.3s;
+}
+.new_transaction img:hover {
+	transform: scale(0.97);
+}
+.new_transaction_content {
+	width: 341px;
+	height: 183px;
+	box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 19.0044px;
+}
+.new_transaction_content h2{
+   font-family: Kanit;
+font-style: normal;
+font-weight: 600;
+font-size: 20.1118px;
+line-height: 25px;
+color: #404040;
+margin-top: 18px;
+margin-left: 6px;
+}
+.accounts {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.account_name {
+	cursor: pointer;
+	transition: 0.3s;
+}
+.account_name:hover {
+	transform: scale(1.1);
+}
+.account_name p {
+	font-family: Kanit;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #404040;
+margin-top: 2px;
+text-align: center;
+}
+.add {
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.add img {
+	transition: 0.3s;
+}
+.add img:hover {
+	transform: scale(1.09);
+}
+.add p {
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #404040;
+	margin-top: 10px;
+	text-align: center;
+}
+.input_button {
+	margin-top: 17px;
+	display: flex;
+}
+.new_transaction input {
+	width: 175.32px;
+height: 36.52px;
+background: #FFFFFF;
+border: 1px solid #197BBD;
+box-sizing: border-box;
+border-radius: 8px;
+margin-left: 7px;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 23.9789px;
+line-height: 29px;
+color: #C7C7C7;
+padding-left: 10px;
+text-decoration: none;
+outline: none;
+}
+.new_transaction button{
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11.1442px;
+	line-height: 14px;
+	color: #404040;
+	width: 132px;
+	height: 36px;
+	background: #ffc145;
+	border-radius: 13.617px;
+	cursor: pointer;
+	border: none;
+	transition: 0.3s;
+	margin-left: 20px;
+}
+.new_transaction button img {
+	width: 8px;
+	height: 10px;
+	margin-top: 3px;
+}
+.new_transaction button:hover {
+	background: #ffc145d5;
+	transform: scale(1.04);
+}
